@@ -1,13 +1,14 @@
 {
   "name": "footstyle",
   "version": "1.0.0",
-  
   "homepage": "https://KripaJhaa.github.io/shiny-footwear",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
@@ -21,6 +22,7 @@
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^5.0.0",
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.7",
     "typescript": "^5.4.5",
