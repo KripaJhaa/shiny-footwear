@@ -1,7 +1,7 @@
 {
   "name": "footstyle",
   "version": "1.0.0",
-  "private": true,
+  
   "homepage": "https://KripaJhaa.github.io/shiny-footwear",
   "type": "module",
   "scripts": {
