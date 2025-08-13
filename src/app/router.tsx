@@ -13,6 +13,10 @@ export const router = createHashRouter([
         element: <Home />
       },
       {
+        path: 'products',
+        element: <Home />
+      },
+      {
         path: 'orders',
         element: <Orders />
       }
